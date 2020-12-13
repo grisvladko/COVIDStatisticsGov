@@ -1,0 +1,7 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highcharts.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialActivityIndicator.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Simctl.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimctlShared.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework

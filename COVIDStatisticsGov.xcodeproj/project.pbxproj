@@ -3,19 +3,93 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3633564BED39A9882119AD /* Pods_COVIDStatisticsGov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E5D48A4719C477AEFEA188 /* Pods_COVIDStatisticsGov.framework */; };
+		8908F75D253E110E00615470 /* TopContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F75C253E110E00615470 /* TopContainer.swift */; };
+		8908F762253E199800615470 /* TopContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F760253E199800615470 /* TopContainerCell.swift */; };
+		8908F765253E255800615470 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F764253E255800615470 /* NavigationBar.swift */; };
+		8908F767253ED01E00615470 /* MiddleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F766253ED01E00615470 /* MiddleContainer.swift */; };
+		8908F774253EDD0200615470 /* BottomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F773253EDD0200615470 /* BottomContainer.swift */; };
+		8908F777253EDD4F00615470 /* BottomContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908F775253EDD4F00615470 /* BottomContainerCell.swift */; };
+		89134E0F255D322B00D942AC /* Highcharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89134E0E255D322B00D942AC /* Highcharts.framework */; };
+		892102F22548050E00F403E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892102F12548050E00F403E0 /* Constants.swift */; };
+		893C76FD256FD9280011A7C4 /* ChartsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C76FC256FD9270011A7C4 /* ChartsInitializer.swift */; };
+		893C7707257000190011A7C4 /* BottomChartsModeUpdateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7706257000190011A7C4 /* BottomChartsModeUpdateExtension.swift */; };
+		893C77092570002B0011A7C4 /* ThirdChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C77082570002B0011A7C4 /* ThirdChart.swift */; };
+		893C770B2570003A0011A7C4 /* MiddleChartsModeUpdateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C770A2570003A0011A7C4 /* MiddleChartsModeUpdateExtension.swift */; };
+		893C770E257000580011A7C4 /* PopUpChartInitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C770D257000580011A7C4 /* PopUpChartInitExtension.swift */; };
+		893C7711257003480011A7C4 /* FirstChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7710257003480011A7C4 /* FirstChart.swift */; };
+		893C77142570034F0011A7C4 /* SecondChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C77132570034F0011A7C4 /* SecondChart.swift */; };
+		893C771A257004F80011A7C4 /* EpidemicCurveChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7719257004F80011A7C4 /* EpidemicCurveChart.swift */; };
+		893C771D257005040011A7C4 /* HeavilySickChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C771C257005040011A7C4 /* HeavilySickChart.swift */; };
+		893C77202570050F0011A7C4 /* SpreadForAgeAndGenderChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C771F2570050F0011A7C4 /* SpreadForAgeAndGenderChart.swift */; };
+		893C77232570051A0011A7C4 /* StuffPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C77222570051A0011A7C4 /* StuffPieChart.swift */; };
+		893C7726257005240011A7C4 /* InfectedChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7725257005240011A7C4 /* InfectedChart.swift */; };
 		897B7DAB253CB20E000A307C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B7DAA253CB20E000A307C /* AppDelegate.swift */; };
 		897B7DAD253CB20E000A307C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B7DAC253CB20E000A307C /* SceneDelegate.swift */; };
 		897B7DAF253CB20E000A307C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B7DAE253CB20E000A307C /* ViewController.swift */; };
 		897B7DB2253CB20E000A307C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897B7DB0253CB20E000A307C /* Main.storyboard */; };
 		897B7DB4253CB224000A307C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897B7DB3253CB224000A307C /* Assets.xcassets */; };
 		897B7DB7253CB224000A307C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897B7DB5253CB224000A307C /* LaunchScreen.storyboard */; };
+		897C8ED725403D2300045AC1 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C8ED625403D2300045AC1 /* extensions.swift */; };
+		89B7D3542566A4FF00AD374F /* RespiratoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7D3532566A4FF00AD374F /* RespiratoryContentView.swift */; };
+		89B7D3562566A51E00AD374F /* PassedAwayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7D3552566A51E00AD374F /* PassedAwayContentView.swift */; };
+		89B7D3582566A55D00AD374F /* PositiveTestsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7D3572566A55D00AD374F /* PositiveTestsContentView.swift */; };
+		89B7D35A2567B5CC00AD374F /* PopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7D3592567B5CC00AD374F /* PopViewDelegate.swift */; };
+		89E8FEB62561935900466E80 /* HeavilySickCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEB52561935900466E80 /* HeavilySickCellContentView.swift */; };
+		89E8FEB82561936A00466E80 /* ActiveSickCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEB72561936A00466E80 /* ActiveSickCellContentView.swift */; };
+		89E8FEBA2561937E00466E80 /* ConfirmedSickCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEB92561937E00466E80 /* ConfirmedSickCellContentView.swift */; };
+		89E8FEBC2563D39E00466E80 /* APIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEBB2563D39E00466E80 /* APIFunctions.swift */; };
+		89E8FEBF2564022A00466E80 /* MainTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEBE2564022A00466E80 /* MainTableViewDelegate.swift */; };
+		89E8FEC12564025A00466E80 /* TopContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEC02564025A00466E80 /* TopContainerDelegate.swift */; };
+		89E8FEC32564027200466E80 /* MiddleContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEC22564027200466E80 /* MiddleContainerDelegate.swift */; };
+		89E8FEC52564027C00466E80 /* BottomContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEC42564027C00466E80 /* BottomContainerDelegate.swift */; };
+		89E8FEC72564041700466E80 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEC62564041700466E80 /* MainTableViewCell.swift */; };
+		89E8FEC92564043D00466E80 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEC82564043D00466E80 /* MainTableView.swift */; };
+		89E8FECB256404A100466E80 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FECA256404A100466E80 /* Protocols.swift */; };
+		89E8FECD256413E600466E80 /* MiddleContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FECC256413E600466E80 /* MiddleContainerCell.swift */; };
+		89E8FECF2564143D00466E80 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FECE2564143D00466E80 /* HeaderView.swift */; };
+		89E8FED32564154800466E80 /* HospitalStatusDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FED22564154800466E80 /* HospitalStatusDelegate.swift */; };
+		89E8FED5256415A000466E80 /* HospitalStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FED4256415A000466E80 /* HospitalStatusCell.swift */; };
+		89E8FED72564164400466E80 /* HospitalStatusHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FED62564164400466E80 /* HospitalStatusHeader.swift */; };
+		89E8FED9256416A500466E80 /* SpreadTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FED8256416A500466E80 /* SpreadTableDelegate.swift */; };
+		89E8FEDB256416CC00466E80 /* SpreadTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEDA256416CC00466E80 /* SpreadTableCell.swift */; };
+		89E8FEDD256416FB00466E80 /* SpreadTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEDC256416FB00466E80 /* SpreadTableHeader.swift */; };
+		89E8FEDF25642A3B00466E80 /* popUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEDE25642A3B00466E80 /* popUpButton.swift */; };
+		89E8FEE5256451F000466E80 /* BottomContainerDelegateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEE4256451F000466E80 /* BottomContainerDelegateExtensions.swift */; };
+		89E8FEE72564520500466E80 /* MiddleContainerDelegateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEE62564520500466E80 /* MiddleContainerDelegateExtensions.swift */; };
+		89E8FEE92564521900466E80 /* TopContainerDelegateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEE82564521900466E80 /* TopContainerDelegateExtensions.swift */; };
+		89E8FEEB2564524700466E80 /* MainTableViewDelegateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8FEEA2564524700466E80 /* MainTableViewDelegateExtensions.swift */; };
+		89EFEA36256BF539008E7A97 /* CellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EFEA35256BF539008E7A97 /* CellHeader.swift */; };
+		89F4AEE22551ADD90008277F /* BottomSpreadTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4AEE12551ADD90008277F /* BottomSpreadTable.swift */; };
+		89F4AEE42551ADE90008277F /* BottomHospitalStatusTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4AEE32551ADE90008277F /* BottomHospitalStatusTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EB5F3053BEF466354C9D98D /* Pods-COVIDStatisticsGov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDStatisticsGov.debug.xcconfig"; path = "Target Support Files/Pods-COVIDStatisticsGov/Pods-COVIDStatisticsGov.debug.xcconfig"; sourceTree = "<group>"; };
+		8908F75C253E110E00615470 /* TopContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainer.swift; sourceTree = "<group>"; };
+		8908F760253E199800615470 /* TopContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainerCell.swift; sourceTree = "<group>"; };
+		8908F764253E255800615470 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		8908F766253ED01E00615470 /* MiddleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleContainer.swift; sourceTree = "<group>"; };
+		8908F773253EDD0200615470 /* BottomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainer.swift; sourceTree = "<group>"; };
+		8908F775253EDD4F00615470 /* BottomContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerCell.swift; sourceTree = "<group>"; };
+		89134E0E255D322B00D942AC /* Highcharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Highcharts.framework; sourceTree = "<group>"; };
+		892102F12548050E00F403E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		893C76FC256FD9270011A7C4 /* ChartsInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartsInitializer.swift; path = "COVIDStatisticsGov/helper /New Group/ChartsInitializer.swift"; sourceTree = SOURCE_ROOT; };
+		893C7706257000190011A7C4 /* BottomChartsModeUpdateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomChartsModeUpdateExtension.swift; sourceTree = "<group>"; };
+		893C77082570002B0011A7C4 /* ThirdChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdChart.swift; sourceTree = "<group>"; };
+		893C770A2570003A0011A7C4 /* MiddleChartsModeUpdateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleChartsModeUpdateExtension.swift; sourceTree = "<group>"; };
+		893C770D257000580011A7C4 /* PopUpChartInitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChartInitExtension.swift; sourceTree = "<group>"; };
+		893C7710257003480011A7C4 /* FirstChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChart.swift; sourceTree = "<group>"; };
+		893C77132570034F0011A7C4 /* SecondChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChart.swift; sourceTree = "<group>"; };
+		893C7719257004F80011A7C4 /* EpidemicCurveChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpidemicCurveChart.swift; sourceTree = "<group>"; };
+		893C771C257005040011A7C4 /* HeavilySickChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavilySickChart.swift; sourceTree = "<group>"; };
+		893C771F2570050F0011A7C4 /* SpreadForAgeAndGenderChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadForAgeAndGenderChart.swift; sourceTree = "<group>"; };
+		893C77222570051A0011A7C4 /* StuffPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffPieChart.swift; sourceTree = "<group>"; };
+		893C7725257005240011A7C4 /* InfectedChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectedChart.swift; sourceTree = "<group>"; };
 		897B7DA7253CB20E000A307C /* COVIDStatisticsGov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVIDStatisticsGov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897B7DAA253CB20E000A307C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897B7DAC253CB20E000A307C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +98,41 @@
 		897B7DB3253CB224000A307C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897B7DB6253CB224000A307C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897B7DB8253CB224000A307C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897C8ED625403D2300045AC1 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		89B7D3532566A4FF00AD374F /* RespiratoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiratoryContentView.swift; sourceTree = "<group>"; };
+		89B7D3552566A51E00AD374F /* PassedAwayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassedAwayContentView.swift; sourceTree = "<group>"; };
+		89B7D3572566A55D00AD374F /* PositiveTestsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveTestsContentView.swift; sourceTree = "<group>"; };
+		89B7D3592567B5CC00AD374F /* PopViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewDelegate.swift; sourceTree = "<group>"; };
+		89B7D3632569ABD300AD374F /* COVIDStatisticsGov.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = COVIDStatisticsGov.entitlements; sourceTree = "<group>"; };
+		89E8FEB52561935900466E80 /* HeavilySickCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavilySickCellContentView.swift; sourceTree = "<group>"; };
+		89E8FEB72561936A00466E80 /* ActiveSickCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSickCellContentView.swift; sourceTree = "<group>"; };
+		89E8FEB92561937E00466E80 /* ConfirmedSickCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmedSickCellContentView.swift; sourceTree = "<group>"; };
+		89E8FEBB2563D39E00466E80 /* APIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunctions.swift; sourceTree = "<group>"; };
+		89E8FEBE2564022A00466E80 /* MainTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDelegate.swift; sourceTree = "<group>"; };
+		89E8FEC02564025A00466E80 /* TopContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainerDelegate.swift; sourceTree = "<group>"; };
+		89E8FEC22564027200466E80 /* MiddleContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleContainerDelegate.swift; sourceTree = "<group>"; };
+		89E8FEC42564027C00466E80 /* BottomContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerDelegate.swift; sourceTree = "<group>"; };
+		89E8FEC62564041700466E80 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		89E8FEC82564043D00466E80 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		89E8FECA256404A100466E80 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		89E8FECC256413E600466E80 /* MiddleContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleContainerCell.swift; sourceTree = "<group>"; };
+		89E8FECE2564143D00466E80 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		89E8FED22564154800466E80 /* HospitalStatusDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalStatusDelegate.swift; sourceTree = "<group>"; };
+		89E8FED4256415A000466E80 /* HospitalStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalStatusCell.swift; sourceTree = "<group>"; };
+		89E8FED62564164400466E80 /* HospitalStatusHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalStatusHeader.swift; sourceTree = "<group>"; };
+		89E8FED8256416A500466E80 /* SpreadTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadTableDelegate.swift; sourceTree = "<group>"; };
+		89E8FEDA256416CC00466E80 /* SpreadTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadTableCell.swift; sourceTree = "<group>"; };
+		89E8FEDC256416FB00466E80 /* SpreadTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadTableHeader.swift; sourceTree = "<group>"; };
+		89E8FEDE25642A3B00466E80 /* popUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpButton.swift; sourceTree = "<group>"; };
+		89E8FEE4256451F000466E80 /* BottomContainerDelegateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerDelegateExtensions.swift; sourceTree = "<group>"; };
+		89E8FEE62564520500466E80 /* MiddleContainerDelegateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleContainerDelegateExtensions.swift; sourceTree = "<group>"; };
+		89E8FEE82564521900466E80 /* TopContainerDelegateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainerDelegateExtensions.swift; sourceTree = "<group>"; };
+		89E8FEEA2564524700466E80 /* MainTableViewDelegateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDelegateExtensions.swift; sourceTree = "<group>"; };
+		89EFEA35256BF539008E7A97 /* CellHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellHeader.swift; sourceTree = "<group>"; };
+		89F4AEE12551ADD90008277F /* BottomSpreadTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSpreadTable.swift; sourceTree = "<group>"; };
+		89F4AEE32551ADE90008277F /* BottomHospitalStatusTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHospitalStatusTable.swift; sourceTree = "<group>"; };
+		95E5D48A4719C477AEFEA188 /* Pods_COVIDStatisticsGov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVIDStatisticsGov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FD173799461935A07F044 /* Pods-COVIDStatisticsGov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDStatisticsGov.release.xcconfig"; path = "Target Support Files/Pods-COVIDStatisticsGov/Pods-COVIDStatisticsGov.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +140,155 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3633564BED39A9882119AD /* Pods_COVIDStatisticsGov.framework in Frameworks */,
+				89134E0F255D322B00D942AC /* Highcharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45426F1BF6AFF32ED67F2DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EB5F3053BEF466354C9D98D /* Pods-COVIDStatisticsGov.debug.xcconfig */,
+				FB6FD173799461935A07F044 /* Pods-COVIDStatisticsGov.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80D776B7CABD4C3385BB4933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89134E0E255D322B00D942AC /* Highcharts.framework */,
+				95E5D48A4719C477AEFEA188 /* Pods_COVIDStatisticsGov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8908F758253DE73300615470 /* navigation bar */ = {
+			isa = PBXGroup;
+			children = (
+				8908F764253E255800615470 /* NavigationBar.swift */,
+			);
+			path = "navigation bar";
+			sourceTree = "<group>";
+		};
+		8908F75B253E10CC00615470 /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				8908F772253EDCEB00615470 /* bottom container */,
+				8908F769253ED12C00615470 /* middle container */,
+				8908F768253ED0FD00615470 /* top container */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		8908F768253ED0FD00615470 /* top container */ = {
+			isa = PBXGroup;
+			children = (
+				8908F78E253F66D300615470 /* cells content views */,
+				8908F75C253E110E00615470 /* TopContainer.swift */,
+				8908F760253E199800615470 /* TopContainerCell.swift */,
+			);
+			path = "top container";
+			sourceTree = "<group>";
+		};
+		8908F769253ED12C00615470 /* middle container */ = {
+			isa = PBXGroup;
+			children = (
+				8908F766253ED01E00615470 /* MiddleContainer.swift */,
+				89E8FECC256413E600466E80 /* MiddleContainerCell.swift */,
+				89E8FECE2564143D00466E80 /* HeaderView.swift */,
+			);
+			path = "middle container";
+			sourceTree = "<group>";
+		};
+		8908F772253EDCEB00615470 /* bottom container */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FED0256414EE00466E80 /* Bottom spread table */,
+				89E8FED12564151100466E80 /* Bottom hospital table */,
+				8908F773253EDD0200615470 /* BottomContainer.swift */,
+				8908F775253EDD4F00615470 /* BottomContainerCell.swift */,
+			);
+			path = "bottom container";
+			sourceTree = "<group>";
+		};
+		8908F77D253EFD6000615470 /* main view controller */ = {
+			isa = PBXGroup;
+			children = (
+				897B7DAE253CB20E000A307C /* ViewController.swift */,
+				89E8FEC82564043D00466E80 /* MainTableView.swift */,
+				89E8FEC62564041700466E80 /* MainTableViewCell.swift */,
+			);
+			path = "main view controller";
+			sourceTree = "<group>";
+		};
+		8908F78E253F66D300615470 /* cells content views */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEDE25642A3B00466E80 /* popUpButton.swift */,
+				89E8FEB52561935900466E80 /* HeavilySickCellContentView.swift */,
+				89E8FEB72561936A00466E80 /* ActiveSickCellContentView.swift */,
+				89E8FEB92561937E00466E80 /* ConfirmedSickCellContentView.swift */,
+				89B7D3532566A4FF00AD374F /* RespiratoryContentView.swift */,
+				89B7D3552566A51E00AD374F /* PassedAwayContentView.swift */,
+				89B7D3572566A55D00AD374F /* PositiveTestsContentView.swift */,
+			);
+			path = "cells content views";
+			sourceTree = "<group>";
+		};
+		893C76FA256FD0960011A7C4 /* charts initializer */ = {
+			isa = PBXGroup;
+			children = (
+				893C7701256FFFCC0011A7C4 /* BottomChartsExtension */,
+				893C7700256FFFBB0011A7C4 /* MiddleChartsExtension */,
+				893C76FF256FFFA80011A7C4 /* PopUpChartExtension */,
+				893C76FC256FD9270011A7C4 /* ChartsInitializer.swift */,
+			);
+			path = "charts initializer";
+			sourceTree = "<group>";
+		};
+		893C76FF256FFFA80011A7C4 /* PopUpChartExtension */ = {
+			isa = PBXGroup;
+			children = (
+				893C770D257000580011A7C4 /* PopUpChartInitExtension.swift */,
+			);
+			path = PopUpChartExtension;
+			sourceTree = "<group>";
+		};
+		893C7700256FFFBB0011A7C4 /* MiddleChartsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				893C770A2570003A0011A7C4 /* MiddleChartsModeUpdateExtension.swift */,
+				893C77082570002B0011A7C4 /* ThirdChart.swift */,
+				893C7710257003480011A7C4 /* FirstChart.swift */,
+				893C77132570034F0011A7C4 /* SecondChart.swift */,
+			);
+			path = MiddleChartsExtension;
+			sourceTree = "<group>";
+		};
+		893C7701256FFFCC0011A7C4 /* BottomChartsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				893C7706257000190011A7C4 /* BottomChartsModeUpdateExtension.swift */,
+				893C7719257004F80011A7C4 /* EpidemicCurveChart.swift */,
+				893C771C257005040011A7C4 /* HeavilySickChart.swift */,
+				893C771F2570050F0011A7C4 /* SpreadForAgeAndGenderChart.swift */,
+				893C77222570051A0011A7C4 /* StuffPieChart.swift */,
+				893C7725257005240011A7C4 /* InfectedChart.swift */,
+			);
+			path = BottomChartsExtension;
+			sourceTree = "<group>";
+		};
 		897B7D9E253CB20E000A307C = {
 			isa = PBXGroup;
 			children = (
 				897B7DA9253CB20E000A307C /* COVIDStatisticsGov */,
 				897B7DA8253CB20E000A307C /* Products */,
+				45426F1BF6AFF32ED67F2DE9 /* Pods */,
+				80D776B7CABD4C3385BB4933 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +303,103 @@
 		897B7DA9253CB20E000A307C /* COVIDStatisticsGov */ = {
 			isa = PBXGroup;
 			children = (
-				897B7DAA253CB20E000A307C /* AppDelegate.swift */,
+				89B7D3632569ABD300AD374F /* COVIDStatisticsGov.entitlements */,
+				8908F77D253EFD6000615470 /* main view controller */,
+				8908F75B253E10CC00615470 /* windows */,
+				8908F758253DE73300615470 /* navigation bar */,
+				897C8ED525403D1500045AC1 /* helper  */,
+				89E8FEBD2564020100466E80 /* delegates */,
+				893C76FA256FD0960011A7C4 /* charts initializer */,
 				897B7DAC253CB20E000A307C /* SceneDelegate.swift */,
-				897B7DAE253CB20E000A307C /* ViewController.swift */,
-				897B7DB0253CB20E000A307C /* Main.storyboard */,
 				897B7DB3253CB224000A307C /* Assets.xcassets */,
+				897B7DAA253CB20E000A307C /* AppDelegate.swift */,
+				897B7DB0253CB20E000A307C /* Main.storyboard */,
 				897B7DB5253CB224000A307C /* LaunchScreen.storyboard */,
 				897B7DB8253CB224000A307C /* Info.plist */,
 			);
 			path = COVIDStatisticsGov;
+			sourceTree = "<group>";
+		};
+		897C8ED525403D1500045AC1 /* helper  */ = {
+			isa = PBXGroup;
+			children = (
+				892102F12548050E00F403E0 /* Constants.swift */,
+				89EFEA35256BF539008E7A97 /* CellHeader.swift */,
+				897C8ED625403D2300045AC1 /* extensions.swift */,
+				89E8FEBB2563D39E00466E80 /* APIFunctions.swift */,
+				89E8FECA256404A100466E80 /* Protocols.swift */,
+			);
+			path = "helper ";
+			sourceTree = "<group>";
+		};
+		89E8FEBD2564020100466E80 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEE1256451B500466E80 /* MainTableViewDelegate */,
+				89E8FEE2256451C300466E80 /* TopContainerDelegate */,
+				89E8FEE0256451A700466E80 /* MiddleContainterDelegate */,
+				89E8FEE3256451D100466E80 /* BottomContainerDelegate */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		89E8FED0256414EE00466E80 /* Bottom spread table */ = {
+			isa = PBXGroup;
+			children = (
+				89F4AEE12551ADD90008277F /* BottomSpreadTable.swift */,
+				89E8FED8256416A500466E80 /* SpreadTableDelegate.swift */,
+				89E8FEDA256416CC00466E80 /* SpreadTableCell.swift */,
+				89E8FEDC256416FB00466E80 /* SpreadTableHeader.swift */,
+			);
+			path = "Bottom spread table";
+			sourceTree = "<group>";
+		};
+		89E8FED12564151100466E80 /* Bottom hospital table */ = {
+			isa = PBXGroup;
+			children = (
+				89F4AEE32551ADE90008277F /* BottomHospitalStatusTable.swift */,
+				89E8FED22564154800466E80 /* HospitalStatusDelegate.swift */,
+				89E8FED62564164400466E80 /* HospitalStatusHeader.swift */,
+				89E8FED4256415A000466E80 /* HospitalStatusCell.swift */,
+			);
+			path = "Bottom hospital table";
+			sourceTree = "<group>";
+		};
+		89E8FEE0256451A700466E80 /* MiddleContainterDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEC22564027200466E80 /* MiddleContainerDelegate.swift */,
+				89E8FEE62564520500466E80 /* MiddleContainerDelegateExtensions.swift */,
+			);
+			path = MiddleContainterDelegate;
+			sourceTree = "<group>";
+		};
+		89E8FEE1256451B500466E80 /* MainTableViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEBE2564022A00466E80 /* MainTableViewDelegate.swift */,
+				89E8FEEA2564524700466E80 /* MainTableViewDelegateExtensions.swift */,
+			);
+			path = MainTableViewDelegate;
+			sourceTree = "<group>";
+		};
+		89E8FEE2256451C300466E80 /* TopContainerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEC02564025A00466E80 /* TopContainerDelegate.swift */,
+				89E8FEE82564521900466E80 /* TopContainerDelegateExtensions.swift */,
+				89B7D3592567B5CC00AD374F /* PopViewDelegate.swift */,
+			);
+			path = TopContainerDelegate;
+			sourceTree = "<group>";
+		};
+		89E8FEE3256451D100466E80 /* BottomContainerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89E8FEC42564027C00466E80 /* BottomContainerDelegate.swift */,
+				89E8FEE4256451F000466E80 /* BottomContainerDelegateExtensions.swift */,
+			);
+			path = BottomContainerDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +409,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897B7DBB253CB224000A307C /* Build configuration list for PBXNativeTarget "COVIDStatisticsGov" */;
 			buildPhases = (
+				11486287AB7DA23F762E7C02 /* [CP] Check Pods Manifest.lock */,
 				897B7DA3253CB20E000A307C /* Sources */,
 				897B7DA4253CB20E000A307C /* Frameworks */,
 				897B7DA5253CB20E000A307C /* Resources */,
+				307FF402C0EA968616AAA97A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +470,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11486287AB7DA23F762E7C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COVIDStatisticsGov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		307FF402C0EA968616AAA97A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVIDStatisticsGov/Pods-COVIDStatisticsGov-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVIDStatisticsGov/Pods-COVIDStatisticsGov-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVIDStatisticsGov/Pods-COVIDStatisticsGov-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		897B7DA3253CB20E000A307C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E8FEBF2564022A00466E80 /* MainTableViewDelegate.swift in Sources */,
+				8908F777253EDD4F00615470 /* BottomContainerCell.swift in Sources */,
+				8908F75D253E110E00615470 /* TopContainer.swift in Sources */,
+				893C770B2570003A0011A7C4 /* MiddleChartsModeUpdateExtension.swift in Sources */,
+				893C7711257003480011A7C4 /* FirstChart.swift in Sources */,
+				89E8FEDD256416FB00466E80 /* SpreadTableHeader.swift in Sources */,
+				893C77232570051A0011A7C4 /* StuffPieChart.swift in Sources */,
 				897B7DAF253CB20E000A307C /* ViewController.swift in Sources */,
+				89E8FEE92564521900466E80 /* TopContainerDelegateExtensions.swift in Sources */,
+				89E8FED9256416A500466E80 /* SpreadTableDelegate.swift in Sources */,
+				89F4AEE22551ADD90008277F /* BottomSpreadTable.swift in Sources */,
+				89E8FEB82561936A00466E80 /* ActiveSickCellContentView.swift in Sources */,
+				893C77092570002B0011A7C4 /* ThirdChart.swift in Sources */,
+				89E8FED5256415A000466E80 /* HospitalStatusCell.swift in Sources */,
+				89E8FEC92564043D00466E80 /* MainTableView.swift in Sources */,
+				89E8FEC12564025A00466E80 /* TopContainerDelegate.swift in Sources */,
+				89E8FEC72564041700466E80 /* MainTableViewCell.swift in Sources */,
+				89EFEA36256BF539008E7A97 /* CellHeader.swift in Sources */,
+				89B7D35A2567B5CC00AD374F /* PopViewDelegate.swift in Sources */,
+				893C771A257004F80011A7C4 /* EpidemicCurveChart.swift in Sources */,
+				89E8FEEB2564524700466E80 /* MainTableViewDelegateExtensions.swift in Sources */,
+				89E8FEC52564027C00466E80 /* BottomContainerDelegate.swift in Sources */,
+				8908F762253E199800615470 /* TopContainerCell.swift in Sources */,
+				89E8FEB62561935900466E80 /* HeavilySickCellContentView.swift in Sources */,
+				892102F22548050E00F403E0 /* Constants.swift in Sources */,
+				8908F765253E255800615470 /* NavigationBar.swift in Sources */,
+				897C8ED725403D2300045AC1 /* extensions.swift in Sources */,
+				8908F767253ED01E00615470 /* MiddleContainer.swift in Sources */,
+				89E8FEC32564027200466E80 /* MiddleContainerDelegate.swift in Sources */,
+				893C76FD256FD9280011A7C4 /* ChartsInitializer.swift in Sources */,
+				89B7D3582566A55D00AD374F /* PositiveTestsContentView.swift in Sources */,
+				893C7707257000190011A7C4 /* BottomChartsModeUpdateExtension.swift in Sources */,
+				89E8FECD256413E600466E80 /* MiddleContainerCell.swift in Sources */,
+				893C77202570050F0011A7C4 /* SpreadForAgeAndGenderChart.swift in Sources */,
+				89E8FECF2564143D00466E80 /* HeaderView.swift in Sources */,
+				8908F774253EDD0200615470 /* BottomContainer.swift in Sources */,
+				89E8FEE72564520500466E80 /* MiddleContainerDelegateExtensions.swift in Sources */,
+				89E8FEDB256416CC00466E80 /* SpreadTableCell.swift in Sources */,
+				89E8FED72564164400466E80 /* HospitalStatusHeader.swift in Sources */,
+				893C77142570034F0011A7C4 /* SecondChart.swift in Sources */,
+				89B7D3542566A4FF00AD374F /* RespiratoryContentView.swift in Sources */,
+				89E8FEBA2561937E00466E80 /* ConfirmedSickCellContentView.swift in Sources */,
+				89E8FED32564154800466E80 /* HospitalStatusDelegate.swift in Sources */,
 				897B7DAB253CB20E000A307C /* AppDelegate.swift in Sources */,
 				897B7DAD253CB20E000A307C /* SceneDelegate.swift in Sources */,
+				893C7726257005240011A7C4 /* InfectedChart.swift in Sources */,
+				893C771D257005040011A7C4 /* HeavilySickChart.swift in Sources */,
+				89E8FEE5256451F000466E80 /* BottomContainerDelegateExtensions.swift in Sources */,
+				89E8FECB256404A100466E80 /* Protocols.swift in Sources */,
+				89E8FEDF25642A3B00466E80 /* popUpButton.swift in Sources */,
+				89E8FEBC2563D39E00466E80 /* APIFunctions.swift in Sources */,
+				89B7D3562566A51E00AD374F /* PassedAwayContentView.swift in Sources */,
+				89F4AEE42551ADE90008277F /* BottomHospitalStatusTable.swift in Sources */,
+				893C770E257000580011A7C4 /* PopUpChartInitExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +712,17 @@
 		};
 		897B7DBC253CB224000A307C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB5F3053BEF466354C9D98D /* Pods-COVIDStatisticsGov.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = COVIDStatisticsGov/COVIDStatisticsGov.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249FCLCGLB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = COVIDStatisticsGov/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +730,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hyperactive.COVIDStatisticsGov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,9 +738,17 @@
 		};
 		897B7DBD253CB224000A307C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6FD173799461935A07F044 /* Pods-COVIDStatisticsGov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = COVIDStatisticsGov/COVIDStatisticsGov.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249FCLCGLB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = COVIDStatisticsGov/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +756,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hyperactive.COVIDStatisticsGov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
